@@ -59,10 +59,17 @@ app.post("/blogs", function(req, res) {
             res.redirect("/blogs");
         }
     });
-
-    
 });
-
+// Show route
+app.get("/blogs/:id", function(req, res) {
+    Blog.findById(req.params.id, function(error, foundBlog) {
+        if (error) {
+            res.redirect("/blogs");
+        } else {
+            res.render("show", {blog: foundBlog});
+        }
+    });
+});
 
 // Start the server (http://localhost:3000) and create a callback function
 app.listen(3000, function() {
