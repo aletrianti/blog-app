@@ -6,3 +6,4 @@ i.icon { font-size: 2.5em; }
 
 .container.main { margin-top: 6em; }
 
+#delete-form { display: inline; }

@@ -100,6 +100,17 @@ app.get("/blogs/:id", function(req, res) {
     });
 });
 
+// Delete route
+app.delete("/blogs/:id", function(req, res) {
+    Blog.findByIdAndRemove(req.params.id, function(error) {
+        if (error) {
+            res.redirect("/blogs");
+        } else {
+            res.redirect("/blogs");
+        }
+    });
+});
+
 
 
 // Start the server (http://localhost:3000) and create a callback function
