@@ -1,0 +1,11 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "A blog app created along with \"The Web Developer Bootcamp\" by Colt Steele on Udemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessia Trianti",
+  "license": "ISC"
+}
