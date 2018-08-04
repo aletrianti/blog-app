@@ -3,15 +3,15 @@ LanguageWorld is the result of an exercise done along with "The Web Developer Bo
 
 The exercise consisted in developing a simple blog app focusing on Back-end development and using mainly Node.js, EJS and MongoDB. 
 
-# Technologies and tools
+## Technologies and tools
 * JavaScript - Node.js
 * EJS
 * CSS - Semantic UI
 
-# Database
+## Database
 * MongoDB
 
-# Packages
+## Packages
 * JSON
 * express
 * mongoose
